@@ -1,0 +1,28 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Use bash and not the default sh
+SHELL := /bin/bash
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+# This has to be exported to make some magic below work.
+export DH_OPTIONS
+
+source := $(shell dpkg-parsechangelog -S Source)
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	# Cleanup first
+	mkdir -p usr/lib/thunderbird/distribution/extensions
+	rm -f usr/lib/thunderbird/distribution/extensions/*
+	wget -q -nc https://addons.thunderbird.net/thunderbird/downloads/latest/shrunked-image-resizer -O usr/lib/thunderbird/distribution/extensions/shrunked@darktrojan.net.xpi
+	#wget -q -nc https://addons.thunderbird.net/thunderbird/downloads/latest/auto-resize-image/ -O usr/lib/thunderbird/distribution/extensions/AutoResizeImage@gmail.com.xpi
+
+override_dh_builddeb:
+	dh_builddeb
+	# Cleanup build directory when done
+	rm -rf ./debian/$(source)

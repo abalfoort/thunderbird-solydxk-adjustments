@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[en_US]=Install Evolvere icons for Thunderbird
+Comment=Install Evolvere icons for Thunderbird
+Exec=thunderbird-evolvere-switch -q
+GenericName[en_US]=Thunderbird Icons
+GenericName=Thunderbird Icons
+MimeType=
+Name[en_US]=Thunderbird Icons
+Name=Thunderbird Icons
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

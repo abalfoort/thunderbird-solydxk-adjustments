@@ -1,0 +1,20 @@
+Source: thunderbird-solydxk-adjustments
+Section: web
+Priority: optional
+Maintainer: Arjen Balfoort <arjenbalfoort@solydxk.com>
+Build-Depends: debhelper-compat (= 12)
+  , python3
+Standards-Version: 4.5.0
+
+Package: thunderbird-solydxk-adjustments
+Architecture: all
+Depends: ${misc:Depends}, 
+ thunderbird,
+ zenity,
+ inotify-tools
+Breaks: solydxk-mozilla-evolvere-icon-theme
+Replaces: thunderbird-solydxk-adjustments (<< 2018.12.18),
+ solydxk-mozilla-evolvere-icon-theme
+Conflicts: thunderbird-solydxk-adjustments (<< 2018.12.18)
+Description: Adjustments for Mozilla Thunderbird
+ SolydXK configuration adjustements for Mozilla Thunderbird

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Qwant</ShortName>
+    <Description>Qwant: the search engine that respects your privacy.</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image height="16" width="16">https://qwant.com/favicon.ico</Image>
+    <Url type="application/x-suggestions+json" method="GET" template="https://api.qwant.com/api/suggest/?q={searchTerms}&amp;client=opensearch" />
+    <Url type="text/html" method="GET" template="https://www.qwant.com/?q={searchTerms}&amp;client=opensearch" />
+    <Query role="example" searchTerms="Qwant" />
+    <moz:SearchForm>https://www.qwant.com/</moz:SearchForm>
+</OpenSearchDescription>

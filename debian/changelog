@@ -1,0 +1,323 @@
+thunderbird-solydxk-adjustments (2020.06.29) stable; urgency=low
+
+  * Replace AutoResizeImage with ShrunkedImageResizer
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 29 Jun 2020 10:34:57 +0200
+
+thunderbird-solydxk-adjustments (2020.02.20) stable; urgency=low
+
+  * Delete solydxk.nl references
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 20 Feb 2020 10:26:09 +0100
+
+thunderbird-solydxk-adjustments (2019.09.06) stable; urgency=low
+
+  * Add thunderbird-enable-hyperlinks script
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 06 Sep 2019 19:58:05 +0200
+
+thunderbird-solydxk-adjustments (2019.02.22) stable; urgency=low
+
+  * Updated distribution.ini
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 22 Feb 2019 13:58:42 +0100
+
+thunderbird-solydxk-adjustments (2019.02.16) stable; urgency=low
+
+  * Updated distribution.ini
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 16 Feb 2019 16:27:12 +0100
+
+thunderbird-solydxk-adjustments (2019.01.06) stable; urgency=low
+
+  * Automate initial install of Evolvere icons
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 06 Jan 2019 19:28:51 +0100
+
+thunderbird-solydxk-adjustments (2018.12.18) stable; urgency=low
+
+  * Move extensions to distribution directory
+  * Replace extension Shrunked Image Resizer with Auto Resize Image (compatible with TB60)
+  * Add search engines: startpage (default), qwant
+  * Merged with solydxk-mozilla-evolvere-icon-theme
+  * Theme only installable by user (not default)
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 18 Dec 2018 10:46:38 +0100
+
+thunderbird-solydxk-adjustments (2018.09.17) stable; urgency=low
+
+  * Addons FireTray and Simple Locale Switcher are no longer supported from TB60+
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 17 Sep 2018 19:51:48 +0200
+
+thunderbird-solydxk-adjustments (2018.05.31) stable; urgency=low
+
+  * Updated add-ons
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 31 May 2018 11:08:32 +0200
+
+thunderbird-solydxk-adjustments (2018.01.30) stable; urgency=low
+
+  * Set DuckDuckGo as default search engine
+  * Add Google search engine
+  * Set default privacy settings
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 30 Jan 2018 12:37:55 +0100
+
+thunderbird-solydxk-adjustments (2017.12.11) stable; urgency=low
+
+  * Update Shrunked Image Resizer
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 11 Dec 2017 14:36:51 +0100
+
+thunderbird-solydxk-adjustments (2017.09.02) stable; urgency=low
+
+  * Updated addons
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 02 Sep 2017 11:49:49 +0200
+
+thunderbird-solydxk-adjustments (2017.06.27) stable; urgency=low
+
+  * Updated add ons
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 27 Jun 2017 17:20:34 +0200
+
+thunderbird-solydxk-adjustments (2017.03.18) stable; urgency=low
+
+  * Reintroduce previous change
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 18 Mar 2017 14:35:04 +0100
+
+thunderbird-solydxk-adjustments (2017.03.09) stable; urgency=low
+
+  * Pre-configure use_system_colors to true
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 09 Mar 2017 23:15:38 +0100
+
+thunderbird-solydxk-adjustments (2017.01.12) stable; urgency=low
+
+  * Update addons
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 12 Jan 2017 16:36:06 +0100
+
+thunderbird-solydxk-adjustments (2016.07.07) stable; urgency=low
+
+  * Make user.default the default user profile directory
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 07 Jul 2016 21:59:24 +0200
+
+thunderbird-solydxk-adjustments (2016.07.06) stable; urgency=low
+
+  * Updated addons
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 06 Jul 2016 14:09:45 +0200
+
+thunderbird-solydxk-adjustments (2016.06.16) stable; urgency=low
+
+  * Changed search engine to Yahoo (was Bing)
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 16 Jun 2016 00:22:17 +0200
+
+thunderbird-solydxk-adjustments (2016.06.11) stable; urgency=low
+
+  * Changed package for local build
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 11 Jun 2016 11:50:00 +0100
+
+thunderbird-solydxk-adjustments (45.1.1) stable; urgency=low
+
+  * 45.1.1
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 31 May 2016 05:20:57 -0700
+
+thunderbird-solydxk-adjustments (45.1.0) stable; urgency=low
+
+  * 45.1.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 12 May 2016 04:30:04 -0700
+
+thunderbird-solydxk-adjustments (45.0) stable; urgency=low
+
+  * 45.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 14 Apr 2016 04:30:03 -0700
+
+thunderbird-solydxk-adjustments (38.7.2) stable; urgency=low
+
+  * 38.7.2
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 08 Apr 2016 04:30:03 -0700
+
+thunderbird-solydxk-adjustments (38.7.1-SSL) stable; urgency=low
+
+  * 38.7.1-SSL
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 25 Mar 2016 04:30:05 -0700
+
+thunderbird-solydxk-adjustments (38.7.0) stable; urgency=low
+
+  * 38.7.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 17 Mar 2016 04:30:03 -0700
+
+thunderbird-solydxk-adjustments (38.6.0) stable; urgency=low
+
+  * 38.6.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 16 Feb 2016 04:30:04 -0800
+
+thunderbird-solydxk-adjustments (38.5.1) stable; urgency=low
+
+  * 38.5.1
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 08 Jan 2016 04:30:04 -0800
+
+thunderbird-solydxk-adjustments (38.5.0) stable; urgency=low
+
+  * 38.5.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 23 Dec 2015 14:05:39 -0800
+
+thunderbird-solydxk-adjustments (38.4.0) stable; urgency=low
+
+  * 38.4.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 26 Nov 2015 04:30:04 -0800
+
+thunderbird-solydxk-adjustments (38.3.0.xk4) stable; urgency=low
+
+  * 38.3.0.xk4
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 08 Nov 2015 14:30:47 -0800
+
+thunderbird-solydxk-adjustments (38.3.0.xk3) stable; urgency=low
+
+  * 38.3.0.xk3
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 08 Nov 2015 10:49:54 -0800
+
+thunderbird-solydxk-adjustments (38.3.0.xk2) stable; urgency=low
+
+  * 38.3.0.xk2
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 07 Nov 2015 13:46:52 -0800
+
+thunderbird-solydxk-adjustments (38.3.0.xk1) stable; urgency=low
+
+  * 38.3.0.xk1
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 07 Nov 2015 08:54:46 -0800
+
+thunderbird-solydxk-adjustments (38.3.0) stable; urgency=low
+
+  * 38.3.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 30 Sep 2015 04:30:05 -0700
+
+thunderbird-solydxk-adjustments (38.2.0ext) stable; urgency=low
+
+  * 38.2.0ext
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 23 Aug 2015 07:23:06 -0700
+
+thunderbird-solydxk-adjustments (38.2.0) stable; urgency=low
+
+  * 38.2.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 15 Aug 2015 04:44:28 -0700
+
+thunderbird-solydxk-adjustments (38.1.0) stable; urgency=low
+
+  * 38.1.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 15 Aug 2015 01:21:32 -0700
+
+thunderbird-solydxk-adjustments (38.0.1) stable; urgency=low
+
+  * 38.0.1
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 30 Jun 2015 00:48:45 -0700
+
+thunderbird-solydxk-adjustments (31.7.0) stable; urgency=low
+
+  * 31.7.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 21 May 2015 04:30:04 -0700
+
+thunderbird-solydxk-adjustments (31.6.0) stable; urgency=low
+
+  * 31.6.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 03 Apr 2015 04:30:04 -0700
+
+thunderbird-solydxk-adjustments (31.5.0) stable; urgency=low
+
+  * 31.5.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 26 Feb 2015 04:30:04 -0800
+
+thunderbird-solydxk-adjustments (31.4.0) stable; urgency=low
+
+  * 31.4.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 14 Jan 2015 04:30:02 -0800
+
+thunderbird-solydxk-adjustments (31.3.0) stable; urgency=low
+
+  * 31.3.0
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 03 Dec 2014 04:30:03 -0800
+
+thunderbird-solydxk-adjustments (31.2.0) stable; urgency=low
+
+  * 31.2.0
+
+ -- Schoelje <schoelje@solydxk.com>  Wed, 15 Oct 2014 04:30:05 -0700
+
+thunderbird-solydxk-adjustments (31.1.2) stable; urgency=low
+
+  * 31.1.2
+
+ -- Schoelje <schoelje@solydxk.com>  Thu, 25 Sep 2014 04:30:03 -0700
+
+thunderbird-solydxk-adjustments (31.1.1) stable; urgency=low
+
+  * 31.1.1
+
+ -- Schoelje <schoelje@solydxk.com>  Thu, 11 Sep 2014 04:30:03 -0700
+
+thunderbird-solydxk-adjustments (31.1.0) stable; urgency=low
+
+  * 31.1.0
+
+ -- Schoelje <schoelje@solydxk.com>  Thu, 04 Sep 2014 04:30:03 -0700
+
+thunderbird-solydxk-adjustments (31.0) stable; urgency=low
+
+  * 31.0
+
+ -- Schoelje <schoelje@solydxk.com>  Wed, 23 Jul 2014 04:00:03 -0700
+
+thunderbird-solydxk-adjustments (24.6.0) stable; urgency=low
+
+  * 24.6.0
+
+ -- Schoelje <schoelje@solydxk.com>  Wed, 11 Jun 2014 04:00:03 -0700
+
+thunderbird-solydxk-adjustments (24.5.0) stable; urgency=low
+
+  * 24.5.0
+
+ -- Schoelje <schoelje@solydxk.com>  Wed, 30 Apr 2014 06:22:42 -0700
+
+thunderbird-solydxk-adjustments (24.4.0) stable; urgency=low
+
+  * 24.4.0
+
+ -- Schoelje <schoelje@solydxk.com>  Thu, 20 Mar 2014 00:59:49 -0700
+
+thunderbird-solydxk-adjustments (24.3.0) stable; urgency=low
+
+  * 24.3.0
+
+ -- Schoelje <schoelje@solydxk.com>  Sun, 02 Mar 2014 08:39:45 +0100

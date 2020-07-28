@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Enable hyperlinks in Thunderbird
+
+if [ ! -e "$HOME/.thunderbird" ]; then
+    echo "Please run Thunderbird once to create your profile directory $HOME/.thunderbird"
+    exit 1
+fi
+
+if [ ! -z "$(pidof thunderbird)" ]; then
+   echo 'Please, close Thunderbird before you continue.'
+   exit 2
+fi
+
+# Disable apparmor for Thunderbird
+AAPROFILE='/etc/apparmor.d/usr.bin.thunderbird'
+if [ -e $AAPROFILE ]; then
+    sudo ln -s $AAPROFILE /etc/apparmor.d/disable/ 2>/dev/null
+    sudo apparmor_parser -R $AAPROFILE 2>/dev/null
+fi
+for F in $(find $HOME/.thunderbird -name "prefs.js"); do
+    echo "user_pref(\"network.protocol-handler.warn-external.http\", true);" >> "$F"
+    echo "user_pref(\"network.protocol-handler.warn-external.https\", true);" >> "$F"
+done
+
+echo 'You can now start Thunderbird.'
+exit 0

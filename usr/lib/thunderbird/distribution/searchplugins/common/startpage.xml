@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Startpage</ShortName>
+  <Description>Startpage: The world's most private search engine.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">https://www.startpage.com/favicon.ico</Image>
+  <Url type="text/html" method="post" template="https://startpage.com/do/search">
+    <Param name="cat" value="web"/>
+    <Param name="query" value="{searchTerms}"/>
+  </Url>
+  <moz:SearchForm>https://startpage.com</moz:SearchForm>
+</OpenSearchDescription>
