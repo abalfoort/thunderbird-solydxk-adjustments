@@ -12,6 +12,13 @@ if [ ! -z "$(pidof thunderbird)" ]; then
    exit 2
 fi
 
+echo 'This will disable apparmor and may pose a potential security risk.'
+read -p 'Are you sure? (y/N) ' -n 1 -r
+if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+    echo 'No changes were made'
+    exit 0
+fi
+
 # Disable apparmor for Thunderbird
 AAPROFILE='/etc/apparmor.d/usr.bin.thunderbird'
 if [ -e $AAPROFILE ]; then
