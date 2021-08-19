@@ -1,3 +1,9 @@
+thunderbird-solydxk-adjustments (2021.08.19) stable; urgency=low
+
+  * Update addons
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 19 Aug 2021 10:37:04 +0200
+
 thunderbird-solydxk-adjustments (2020.08.23) stable; urgency=low
 
   * Show security risk warning in thunderbird-enable-hyperlinks script
