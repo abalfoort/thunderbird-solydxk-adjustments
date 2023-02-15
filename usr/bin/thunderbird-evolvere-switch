@@ -14,16 +14,21 @@ while getopts ":qd" opt; do
     *)
       echo "Possible parameters:"
       echo "-q      Quiet: no messages"
-      echo "-d      Delete: rename $TBCSS"
+      echo "-d      Delete: rename userChrome.css"
       exit 1
       ;;
   esac
 done
 
 # Check if Thunderbird is installed
-if [ "$(which thunderbird)" == '' ]; then
+if [ -z "$(which thunderbird)" ]; then
   echo 'Thunderbird is not installed - exiting'
   exit 2
+fi
+
+if [ -z "$(ls /usr/share/icons/evolvere*/index.theme)" ]; then
+  echo 'Evolvere icon theme is not installed - exiting'
+  exit 3
 fi
 
 # Wait for profiles.ini to be created by Thunderbird
@@ -45,7 +50,7 @@ fi
 # If user kills inotifywait: exit
 if [ ! -e "$TB/profiles.ini" ]; then
   echo 'Thunderbird has not been initialized - exiting.'
-  exit 3
+  exit 4
 fi
 
 TBPROFILE=$TB/$(grep Path "$TB/profiles.ini" | cut -d = -f 2)
