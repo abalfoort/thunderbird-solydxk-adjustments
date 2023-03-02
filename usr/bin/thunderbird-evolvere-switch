@@ -70,7 +70,7 @@ if [ -f  "$TBCSS" ]; then
   fi
 fi
 
-if [ -z $ISLIGHT ]; then
+if [ -z "$ISLIGHT" ]; then
   # Not installed or dark theme in use
   ANSWER=true
   if ! $QUIET; then
