@@ -1,3 +1,9 @@
+thunderbird-solydxk-adjustments (2023.06.20) stable; urgency=low
+
+  * Updated addons
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 20 Jun 2023 19:04:52 +0200
+
 thunderbird-solydxk-adjustments (2023.03.02) stable; urgency=low
 
   * Fix thunderbird-evolvere-switch crash
