@@ -1,3 +1,10 @@
+thunderbird-solydxk-adjustments (2023.10.04) stable; urgency=low
+
+  * Remove solydxk-mozilla-evolvere-icon-theme: ignored by TB
+  * Update shrunked extension
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 04 Oct 2023 16:00:37 +0200
+
 thunderbird-solydxk-adjustments (2023.06.20) stable; urgency=low
 
   * Updated addons
